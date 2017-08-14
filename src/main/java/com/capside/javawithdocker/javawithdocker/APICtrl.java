@@ -18,6 +18,6 @@ public class APICtrl {
     
     @GetMapping(path = "/messages", params = "type=oops")
     public void shutdownByABug() {
-        System.exit(0);
+        System.exit(1);
     }
 }
